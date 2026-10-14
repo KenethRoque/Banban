@@ -132,13 +132,10 @@ This is my family.
 <h3>Gaming</h3>
 <p>I like medieval strategy games.I also like to play Fps shooting game with my friend when I have freetime</p>
 </article>
-🎮
-🎵
 <article class="hobby-card">
 <div class="emoji"> </div>
 <h3>Music</h3>
 <p>I like listening to different genres of music, especially pop and rock.</p></article>
-📸
 <article class="hobby-card">
 <div class="emoji"> </div>
 <h3>Photography</h3>
@@ -148,13 +145,8 @@ This is my family.
 </section>
 <!-- DREAMS -->
 <section class="section" id="dreams">
-<h2 class="section-title">My Dreams and Goals</h2>
+<h2 class="section-title">My Dreams And Goals</h2>
 <div class="two-column">
-<img
-src="{{ asset('images/my-dreams.jpg') }}"
-alt="My dreams and goals"
-class="section-image"
->
 <div>
 <h3>The Future I Want to Build</h3>
 <p>
