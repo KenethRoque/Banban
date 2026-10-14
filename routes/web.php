@@ -4,10 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
-Route::view('/about', 'about');
-Route::view('/home', 'home');
-Route::view('/childhood', 'childhood');
-Route::view('/family', 'family');
-Route::view('/dreams', 'dreams');
+ Route::get('/about', function () {
+    return view('about');
+})->name('about');
